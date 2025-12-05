@@ -34,9 +34,9 @@ Class – Target variable
 
 0 → Non-Fraud
 
-✅ The dataset is extremely imbalanced, making it ideal for real-world fraud modeling.
+ The dataset is extremely imbalanced, making it ideal for real-world fraud modeling.
 
-⚙️ Tools & Technologies Used
+ Tools & Technologies Used
 
 Programming Language: Python
 
@@ -56,7 +56,7 @@ shap – Model explainability
 
 joblib – Model & pipeline saving
 
-🔁 Project Workflow
+ Project Workflow
 
 Environment Setup
 
@@ -98,21 +98,21 @@ Threshold Optimization
 
 Final Model Saving & Deployment-ready Predictions
 
-📊 Key Evaluation Metrics
+ Key Evaluation Metrics
 
 Since fraud detection is a high-risk classification problem, the following metrics were prioritized:
 
-✅ Recall (Most Important) – To minimize missed frauds
+ Recall (Most Important) – To minimize missed frauds
 
-✅ F1-Score – Balance between precision & recall
+ F1-Score – Balance between precision & recall
 
-✅ ROC-AUC – Overall separability
+ ROC-AUC – Overall separability
 
-✅ PR-AUC – Performance on imbalanced data
+ PR-AUC – Performance on imbalanced data
 
-❌ Accuracy alone was not used due to extreme class imbalance.
+ Accuracy alone was not used due to extreme class imbalance.
 
-🏆 Best Model Selection
+ Best Model Selection
 
 The final model was selected based on:
 
@@ -122,7 +122,6 @@ Strong F1-score
 
 Best ROC-AUC & PR-AUC
 
- [Insert your best model name here, e.g., Random Forest / Gradient Boosting] was selected as the final production-ready model.
 
  Model Explainability
 
